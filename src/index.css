@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.delete {
+    display: flex;
+    color: red;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.title {
+    display: flex;
+    font-size: 1rem;
+    display: block;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.label {
+    display: flex;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+#add-button {
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+#add-button.on-press {
+    border: none;
+    background-color: red;
+    color: white;
+}
